@@ -1,8 +1,12 @@
+import React from "react";
+
 const Favorites = () => {
   return (
     <div className="page">
-      <h1>Mis Ejercicios Favoritos</h1>
-      <p>(Aquí aparecerán los ejercicios que hayas marcado como favoritos)</p>
+      <h1>Favoritos</h1>
+      <p>
+        Aquí puedes ver tus ejercicios favoritos.
+      </p>
     </div>
   );
 };
