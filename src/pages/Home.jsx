@@ -1,18 +1,13 @@
-import { Link } from 'react-router-dom';
-
-const groups = ['Pecho', 'Espalda', 'Piernas', 'Hombros', 'Brazos', 'Core'];
+import React from "react";
 
 const Home = () => {
   return (
     <div className="page">
-      <h1>Ejercicios por Grupo Muscular</h1>
-      <ul>
-        {groups.map(group => (
-          <li key={group}>
-            <Link to={`/muscle/${group.toLowerCase()}`}>{group}</Link>
-          </li>
-        ))}
-      </ul>
+      <h1>Bienvenido a Musculación en Casa</h1>
+      <p>
+        Elige un grupo muscular para ver ejercicios:
+      </p>
+      {/* Aquí pon los enlaces o botones a los grupos musculares */}
     </div>
   );
 };
